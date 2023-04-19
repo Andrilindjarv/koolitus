@@ -1,0 +1,27 @@
+body{
+    background-color: #033764;   
+}
+h1{
+    width: 360px;
+    height: 680px;
+    margin:auto;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+h1{
+
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px; 
+}
+form input{
+    width: 100%;
+    padding: 7px;
+}
