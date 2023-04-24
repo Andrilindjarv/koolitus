@@ -1,0 +1,90 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(131,58,180);
+    background: linear-gradient(208deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    padding: 10px;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+header>a>img,
+header>div {
+    width: 500px;
+}
+
+body>nav {
+    padding: 15px;
+    background: rgb(238,174,202);
+    background: linear-gradient(267deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    padding: 30px;
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,0.42200630252100846) 100%);
+}
+
+main>p,
+main>img {
+    width: 60vw;
+}
+
+footer {
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: linear-gradient(267deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+footer>nav {
+    display: flex;
+    gap: 10px;
+}
+
+.form {
+    width: 400px;
+    height: 440px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    position: relative
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    transition: all .3s;
+    border-bottom: 2px solid rgb(233, 174, 86);
+    color: darkslategray;
+}
+
+::placeholder {
+    color: lightseagreen;
+    opacity: 1;
+}
+
+input:focus {
+    border-bottom: 2px solid darkslategray;
+}
+
+button {
+    float: right;
+    padding: 8px 12px;
+    margin: 8px 0 0;
+    border: 2px solid rgb(47, 79, 50);
+    background: 2;
+    color: darkslategray;
+    cursor: pointer;
+    transition: all .3s
+}
+
