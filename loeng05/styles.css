@@ -1,0 +1,12 @@
+
+.galerii {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    width: 100%;
+}
+
+.pilt {
+    margin: 2px;
+    width: 400px;
+}
