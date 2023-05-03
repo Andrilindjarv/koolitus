@@ -94,6 +94,7 @@ h3 {
     letter-spacing: 2px;
     color: white;
     background-color: black;
+    border: none;
     text-transform: uppercase;
     cursor: pointer;
 }
