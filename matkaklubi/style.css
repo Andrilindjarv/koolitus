@@ -132,3 +132,38 @@ h3 {
     top: 1000px;
     right: -350px;
 }
+
+h5 {
+    height: 93px;
+    margin: 0;
+    font-size: 48px;
+    padding-top: 600px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    color: rgb(151, 151, 151);
+    top: 400px;
+    left: 76px;
+}
+
+h6 {
+    height: 93px;
+    margin: 0;
+    font-size: 48px;
+    padding-top: 76.47px;
+    font-weight: 700;
+    position: absolute;
+    top: 970px;
+    left: 76px;
+}
+
+p {
+    height: 93px;
+    margin: 0;
+    font-size: 18px;
+    padding-top: 76.47px;
+    font-weight: 700;
+    position: absolute;
+    top: 1085px;
+    left: 76px;
+}
