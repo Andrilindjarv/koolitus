@@ -150,6 +150,7 @@ h6 {
     height: 93px;
     margin: 0;
     font-size: 48px;
+    letter-spacing: -1;
     padding-top: 76.47px;
     font-weight: 700;
     position: absolute;
@@ -162,8 +163,104 @@ p {
     margin: 0;
     font-size: 18px;
     padding-top: 76.47px;
-    font-weight: 700;
+    font-weight: 400;
     position: absolute;
-    top: 1085px;
+    top: 1087px;
     left: 76px;
 }
+
+.binokkel1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 1125px;
+    left:727px;
+}
+
+.binokkel2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 1125px;
+    left:1087px;
+}
+
+.kaart {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 1125px;
+    left:1443px;
+}
+
+.pildirida
+
+{
+    width: 309px; height: 406px; object-fit: cover; 
+}
+
+.noolvasak {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+.noolparem {
+    font-size: 70px;
+    color: rgb(221, 217, 217);
+   
+}
+
+.vasaknr {
+    font-size: 40px;
+}
+
+.paremnr {
+    font-size: 30px;
+    color: rgb(128, 126, 126);
+}
+
+.nooled {
+    position: absolute;
+    top: 1462px;
+    left:74px;  
+}
+
+.keskelpilt{
+    position: absolute;
+    top: 1611px;
+    width: 1813px; height: 438px; object-fit: cover;
+    background-image: url("pildid/jalad.png"); 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; ;
+  }
+
+  .txtkeskel {
+    height: 93px;
+    margin: 0;
+    font-size: 18px;
+    padding-top: 76.47px;
+    font-weight: 800;
+    font-size: 45.83px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 2px;
+    top: 23px;
+    left: 507px;
+  }
+
+  .txtkeskel2 {
+    height: 93px;
+    margin: 0;
+    font-size: 18px;
+    padding-top: 76.47px;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 181px;
+    left: 548px;
+  }
+
